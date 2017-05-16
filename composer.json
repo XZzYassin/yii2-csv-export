@@ -1,12 +1,12 @@
 {
-    "name": "serrg1994/yii2-csv-export",
+    "name": "XZzYassin/yii2-csv-export",
     "type": "yii2-extension",
     "keywords": ["yii2", "csv", "export"],
     "description": "Export data to CSV file",
     "authors": [
         {
-            "name": "Serhiy Novoseletskiy",
-            "email": "novoseletskiyserhiy@gmail.com"
+            "name": "Mumen Yassin",
+            "email": "yassin.mumen@gmail.com"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "serrg1994\\csvexport\\": ""
+            "XZzYassin\\CSVExporter\\": ""
         }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace serrg1994\csvexport;
+namespace XZzYassin\CSVExporter;
 use yii\base\Exception;
 
 /**
@@ -37,7 +37,7 @@ class CSVExport
 
         static::$dirName = $options['dirName'];
 
-        if (static::$dirName[strlen(static::$dirName - 1)] !== '/') {
+        if (static::$dirName[strlen(static::$dirName) -1] !== '/') {
             static::$dirName .= '/';
         }
 
